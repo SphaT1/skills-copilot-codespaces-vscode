@@ -1,37 +1,22 @@
-# Compiled source #
-###################
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-
-# Packages #
-############
-# it's better to unpack these files and commit the raw source
-# git has its own built in compression methods
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-
-# Logs and databases #
-######################
-*.log
-*.sql
-*.sqlite
-
-# OS generated files #
-######################
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
+{
+    "id": "chatcmpl-6v7mkQj980V1yBec6ETrKPRqFjNw9",
+    "object": "chat.completion",
+    "created": 1679001781,
+    "model": "gpt-35-turbo",
+    "usage": {
+        "prompt_tokens": 95,
+        "completion_tokens": 84,
+        "total_tokens": 179
+    },
+    "choices": [
+        {
+            "message":
+                {
+                    "role": "assistant",
+                    "content": "Yes, other Azure AI Services also support translation. Azure AI Services offer translation between multiple languages for text, documents, or custom translation through Azure AI Services Translator."
+                },
+            "finish_reason": "stop",
+            "index": 0
+        }
+    ]
+}
